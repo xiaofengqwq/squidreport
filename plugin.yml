@@ -1,0 +1,16 @@
+name: Squdreport
+version: 1.5
+main: wind.spirit.squdreport.Squdreport
+api-version: 1.16
+author: Naughty_Wind
+
+commands:
+  report:
+    description: 举报玩家
+    usage: /report [Player] [reason]
+  sr:
+    description: SR插件主指令
+
+permissions:
+  sr.version:
+    description: 执行sr version

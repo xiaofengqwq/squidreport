@@ -1,0 +1,20 @@
+name: Squdreport
+version: 1.4
+main: wind.spirit.squdreport.Squdreport
+api-version: 1.16
+author: Naughty_Wind
+
+commands:
+  report:
+    description: 举报玩家
+    usage: /report [Player] [reason]
+  sr:
+    description: SR插件主指令
+
+permissions:
+  squid.report.user:
+    description: 用户权限
+    default: true
+  squid.report.admin:
+    description: 管理员权限
+    default: op
